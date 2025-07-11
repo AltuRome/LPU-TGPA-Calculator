@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 enum semester
 {
+
+    CSE326(2),
     MTH174(4),
     INT108(4),
     MEC136(4),
@@ -32,7 +34,7 @@ enum semester
     
     CSE310(4),
     CSE211(4),
-    MTH304(4),
+    MTH302(4),
     CSE408(3),
     INT255(3),
     INT256(3),
