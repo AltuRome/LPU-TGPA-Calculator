@@ -3,42 +3,15 @@ import java.util.Scanner;
 
 enum semester
 {
+    CSE343(2), ECO214(3), INT394(3), INT395(3), PEV301(4), CSE322(3), PEA306(3),
 
-    CSE326(2),
-    MTH174(4),
-    INT108(4),
-    MEC136(4),
-    CSE111(2),
-    PES318(3),
-    PHY110(3),
+    CSE326(2), MTH174(4), INT108(4), MEC136(4), CSE111(2), PES318(3), PHY110(3),
     
-    ECE249(4),
-    INT306(4),
-    CSE101(4),
-    MTH401(3),
-    CSE320(3),
-    PEL130(3),
-    CSE121(2),
-    CHE110(2),
-    ECE279(1),
+    ECE249(4), INT306(4), CSE101(4), MTH401(3), CSE320(3), PEL130(3), CSE121(2), CHE110(2), ECE279(1),
     
-    CSE202(4),
-    CSE205(4),
-    CSE209(4),
-    CSE306(3),
-    CSE307(1),
-    CSE316(3),
-    CSE325(1),
-    GEN231(2),
-    PEL136(3),
+    CSE202(4), CSE205(4), CSE209(4), CSE306(3), CSE307(1), CSE316(3), CSE325(1), GEN231(2), PEL136(3),
     
-    CSE310(4),
-    CSE211(4),
-    MTH302(4),
-    CSE408(3),
-    INT255(3),
-    INT256(3),
-    PEA305(3);
+    CSE310(4), CSE211(4), MTH302(4), CSE408(3), INT255(3), INT256(3), PEA305(3);
 
     final int credit;
     semester(int credit)
@@ -49,17 +22,7 @@ enum semester
 
 enum grade
 {
-    OGRADE(10),
-    APGRADE(9),
-    AGRADE(8),
-    BPGRADE(7),
-    BGRADE(6),
-    CGRADE(5),
-    DGRADE(4),
-    EGRADE(0),
-    GGRADE(0),
-    FGRADE(0),
-    IGRADE(0);
+    OGRADE(10), APGRADE(9), AGRADE(8), BPGRADE(7), BGRADE(6), CGRADE(5), DGRADE(4), EGRADE(0), GGRADE(0), FGRADE(0), IGRADE(0);
 
     final int point;
     grade(int point)
