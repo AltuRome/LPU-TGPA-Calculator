@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="LPU-TGPA-Calculation:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/LPU_TGPA_Calculation_jar</output-path>
-    <root id="archive" name="LPU-TGPA-Calculation.jar">
-      <element id="module-output" name="LPU-TGPA-Calculation" />
-    </root>
-  </artifact>
-</component>
